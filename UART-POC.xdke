@@ -1,0 +1,134 @@
+{
+  "project": {
+    "projectSettingsVersion": "3.0.0",
+    "currentBuildConfiguration": null,
+    "projectFiles": {},
+    "projectDirectories": {}
+  },
+  "editorTab": {
+    "currentEditorMode": 0
+  },
+  "iot-tab": {
+    "fileStatus": {
+      ".gitignore": {
+        "previousModTime": 1497661664570,
+        "modified": 1497661664570,
+        "seen": true,
+        "name": ".gitignore"
+      },
+      "icon.png": {
+        "previousModTime": 1497661664570,
+        "modified": 1497661664570,
+        "seen": true,
+        "name": "icon.png"
+      },
+      "LICENSE.md": {
+        "previousModTime": 1497661664574,
+        "modified": 1497661664574,
+        "seen": true,
+        "name": "LICENSE.md"
+      },
+      "main.js": {
+        "previousModTime": 1497752223620,
+        "modified": 1497752223620,
+        "seen": true,
+        "name": "main.js"
+      },
+      "package.json": {
+        "previousModTime": 1499058367520,
+        "modified": 1499058367520,
+        "seen": true,
+        "name": "package.json"
+      },
+      "README.md": {
+        "previousModTime": 1497661664586,
+        "modified": 1497661664586,
+        "seen": true,
+        "name": "README.md"
+      },
+      "UART-POC.xdk": {
+        "previousModTime": 1499083560773,
+        "modified": 1499083560773,
+        "seen": true,
+        "name": "UART-POC.xdk"
+      },
+      "UART-POC.xdke": {
+        "previousModTime": 1499140562162,
+        "modified": 1499140562162,
+        "seen": true,
+        "name": "UART-POC.xdke"
+      },
+      "utl/cfg-app-platform.js": {
+        "previousModTime": 1497661664590,
+        "modified": 1497661664590,
+        "seen": true,
+        "name": "utl/cfg-app-platform.js"
+      },
+      "utl/version-compare.js": {
+        "previousModTime": 1497661664578,
+        "modified": 1497661664578,
+        "seen": true,
+        "name": "utl/version-compare.js"
+      },
+      "xdk/project-info.json": {
+        "previousModTime": 1497661664798,
+        "modified": 1497661664798,
+        "seen": true,
+        "name": "xdk/project-info.json"
+      },
+      "azure.js": {
+        "previousModTime": 1497664488397,
+        "modified": 1497664488397,
+        "seen": true,
+        "name": "azure.js"
+      },
+      "xdk/services/service-credentials.js": {
+        "previousModTime": 1497697014390,
+        "modified": 1497697014390,
+        "seen": true,
+        "name": "xdk/services/service-credentials.js"
+      },
+      "xdk/services/service-methods.js": {
+        "previousModTime": 1497697014358,
+        "modified": 1497697014358,
+        "seen": true,
+        "name": "xdk/services/service-methods.js"
+      },
+      "groveSensor.js": {
+        "previousModTime": 1497751941781,
+        "modified": 1497751941781,
+        "seen": true,
+        "name": "groveSensor.js"
+      },
+      "index.js": {
+        "previousModTime": 1499140723273,
+        "modified": 1499140723273,
+        "seen": true,
+        "name": "index.js"
+      },
+      "messageProcessor.js": {
+        "previousModTime": 1497751941796,
+        "modified": 1497751941796,
+        "seen": true,
+        "name": "messageProcessor.js"
+      },
+      "simulatedSensor.js": {
+        "previousModTime": 1497751941809,
+        "modified": 1497751941809,
+        "seen": true,
+        "name": "simulatedSensor.js"
+      },
+      "config.json": {
+        "previousModTime": 1499137548075,
+        "modified": 1499137548075,
+        "seen": true,
+        "name": "config.json"
+      }
+    },
+    "boardFileStatus": {
+      "index.js": {
+        "previousModTime": 1499140724153
+      }
+    }
+  }
+}

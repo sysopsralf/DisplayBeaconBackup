@@ -1,0 +1,507 @@
+{
+  "project": {
+    "projectSettingsVersion": "3.0.0",
+    "creationData": {
+      "projectTypeName": "com.intel.xdk.projecttype.iotapp",
+      "src": "iotapp/iotapp-template-uart/sample.zip",
+      "projectGuid": "6dcc58c9-14ca-48e3-ad8b-9ca14eab2599",
+      "lastModifiedDate": 1499083560599,
+      "creationDate": 1497661664629
+    },
+    "sourceDirectory": "",
+    "cordovaPluginsDirectory": "plugins",
+    "startFile": "main.js",
+    "projectTags": [],
+    "projectFiles": {},
+    "projectDirectories": {
+      "iot/xdk": {
+        "settings": {
+          "project": {
+            "XDK-generated": "true"
+          }
+        }
+      },
+      "xdk": {
+        "settings": {
+          "project": {
+            "XDK-generated": "true"
+          }
+        }
+      },
+      "xdk/services": {
+        "settings": {
+          "project": {
+            "XDK-generated": "true"
+          }
+        }
+      }
+    },
+    "libraries": [],
+    "cordovaPlugins": [],
+    "serviceMethods": [
+      {
+        "methodName": "pullazure",
+        "serviceName": "azure",
+        "resultType": "unknown",
+        "selectedPaths": {},
+        "codeGenerationParams": {
+          "serviceName": "azure",
+          "endpointName": "Device",
+          "methodName": "pull"
+        },
+        "parameters": {
+          "host_name": "NINJAHUB.azure-devices.net",
+          "key_name": "iothubowner",
+          "device_id": "Beacon",
+          "start_time": "2017-01-01"
+        },
+        "requiredLibraries": [
+          "xdk/services/service-credentials.js",
+          "xdk/services/service-methods.js"
+        ]
+      },
+      {
+        "methodName": "alertswunderground",
+        "serviceName": "wunderground",
+        "resultType": "object",
+        "selectedPaths": {
+          "[\"response\"][\"features\"][\"alerts\"]": "Number",
+          "[\"response\"][\"results\"][\"0\"][\"name\"]": "String",
+          "[\"response\"][\"results\"][\"0\"][\"city\"]": "String",
+          "[\"response\"][\"results\"][\"0\"][\"state\"]": "String",
+          "[\"response\"][\"results\"][\"0\"][\"country\"]": "String"
+        },
+        "cachedResult": {
+          "code": 200,
+          "details": {
+            "call": "",
+            "code": "n/a",
+            "headers": "{}",
+            "result": {
+              "response": {
+                "version": "0.1",
+                "termsofService": "http://www.wunderground.com/weather/api/d/terms.html",
+                "features": {
+                  "alerts": 1
+                },
+                "results": [
+                  {
+                    "name": "Apalachicola",
+                    "city": "Apalachicola",
+                    "state": "FL",
+                    "country": "US",
+                    "country_iso3166": "US",
+                    "country_name": "USA",
+                    "zmw": "32320.1.99999",
+                    "l": "/q/zmw:32320.1.99999"
+                  },
+                  {
+                    "name": "Bartow",
+                    "city": "Bartow",
+                    "state": "FL",
+                    "country": "US",
+                    "country_iso3166": "US",
+                    "country_name": "USA",
+                    "zmw": "33830.1.99999",
+                    "l": "/q/zmw:33830.1.99999"
+                  },
+                  {
+                    "name": "Cocoa",
+                    "city": "Cocoa",
+                    "state": "FL",
+                    "country": "US",
+                    "country_iso3166": "US",
+                    "country_name": "USA",
+                    "zmw": "32922.1.99999",
+                    "l": "/q/zmw:32922.1.99999"
+                  },
+                  {
+                    "name": "Crestview",
+                    "city": "Crestview",
+                    "state": "FL",
+                    "country": "US",
+                    "country_iso3166": "US",
+                    "country_name": "USA",
+                    "zmw": "32536.1.99999",
+                    "l": "/q/zmw:32536.1.99999"
+                  },
+                  {
+                    "name": "Cross City",
+                    "city": "Cross City",
+                    "state": "FL",
+                    "country": "US",
+                    "country_iso3166": "US",
+                    "country_name": "USA",
+                    "zmw": "32628.1.99999",
+                    "l": "/q/zmw:32628.1.99999"
+                  },
+                  {
+                    "name": "Daytona Beach",
+                    "city": "Daytona Beach",
+                    "state": "FL",
+                    "country": "US",
+                    "country_iso3166": "US",
+                    "country_name": "USA",
+                    "zmw": "32114.1.99999",
+                    "l": "/q/zmw:32114.1.99999"
+                  },
+                  {
+                    "name": "Destin",
+                    "city": "Destin",
+                    "state": "FL",
+                    "country": "US",
+                    "country_iso3166": "US",
+                    "country_name": "USA",
+                    "zmw": "32540.1.99999",
+                    "l": "/q/zmw:32540.1.99999"
+                  },
+                  {
+                    "name": "Fort Lauderdale",
+                    "city": "Fort Lauderdale",
+                    "state": "FL",
+                    "country": "US",
+                    "country_iso3166": "US",
+                    "country_name": "USA",
+                    "zmw": "33301.1.99999",
+                    "l": "/q/zmw:33301.1.99999"
+                  },
+                  {
+                    "name": "Fort Myers",
+                    "city": "Fort Myers",
+                    "state": "FL",
+                    "country": "US",
+                    "country_iso3166": "US",
+                    "country_name": "USA",
+                    "zmw": "33901.1.99999",
+                    "l": "/q/zmw:33901.1.99999"
+                  },
+                  {
+                    "name": "Fort Pierce",
+                    "city": "Fort Pierce",
+                    "state": "FL",
+                    "country": "US",
+                    "country_iso3166": "US",
+                    "country_name": "USA",
+                    "zmw": "34945.1.99999",
+                    "l": "/q/zmw:34945.1.99999"
+                  },
+                  {
+                    "name": "Gainesville",
+                    "city": "Gainesville",
+                    "state": "FL",
+                    "country": "US",
+                    "country_iso3166": "US",
+                    "country_name": "USA",
+                    "zmw": "32601.1.99999",
+                    "l": "/q/zmw:32601.1.99999"
+                  },
+                  {
+                    "name": "Jacksonville",
+                    "city": "Jacksonville",
+                    "state": "FL",
+                    "country": "US",
+                    "country_iso3166": "US",
+                    "country_name": "USA",
+                    "zmw": "32099.1.99999",
+                    "l": "/q/zmw:32099.1.99999"
+                  },
+                  {
+                    "name": "Key West",
+                    "city": "Key West",
+                    "state": "FL",
+                    "country": "US",
+                    "country_iso3166": "US",
+                    "country_name": "USA",
+                    "zmw": "33040.1.99999",
+                    "l": "/q/zmw:33040.1.99999"
+                  },
+                  {
+                    "name": "Lakeland",
+                    "city": "Lakeland",
+                    "state": "FL",
+                    "country": "US",
+                    "country_iso3166": "US",
+                    "country_name": "USA",
+                    "zmw": "33801.1.99999",
+                    "l": "/q/zmw:33801.1.99999"
+                  },
+                  {
+                    "name": "Leesburg",
+                    "city": "Leesburg",
+                    "state": "FL",
+                    "country": "US",
+                    "country_iso3166": "US",
+                    "country_name": "USA",
+                    "zmw": "34748.1.99999",
+                    "l": "/q/zmw:34748.1.99999"
+                  },
+                  {
+                    "name": "Marathon",
+                    "city": "Marathon",
+                    "state": "FL",
+                    "country": "US",
+                    "country_iso3166": "US",
+                    "country_name": "USA",
+                    "zmw": "33050.1.99999",
+                    "l": "/q/zmw:33050.1.99999"
+                  },
+                  {
+                    "name": "Marianna",
+                    "city": "Marianna",
+                    "state": "FL",
+                    "country": "US",
+                    "country_iso3166": "US",
+                    "country_name": "USA",
+                    "zmw": "32446.1.99999",
+                    "l": "/q/zmw:32446.1.99999"
+                  },
+                  {
+                    "name": "Melbourne",
+                    "city": "Melbourne",
+                    "state": "FL",
+                    "country": "US",
+                    "country_iso3166": "US",
+                    "country_name": "USA",
+                    "zmw": "32901.1.99999",
+                    "l": "/q/zmw:32901.1.99999"
+                  },
+                  {
+                    "name": "Miami",
+                    "city": "Miami",
+                    "state": "FL",
+                    "country": "US",
+                    "country_iso3166": "US",
+                    "country_name": "USA",
+                    "zmw": "33101.1.99999",
+                    "l": "/q/zmw:33101.1.99999"
+                  },
+                  {
+                    "name": "Naples",
+                    "city": "Naples",
+                    "state": "FL",
+                    "country": "US",
+                    "country_iso3166": "US",
+                    "country_name": "USA",
+                    "zmw": "34101.1.99999",
+                    "l": "/q/zmw:34101.1.99999"
+                  },
+                  {
+                    "name": "Ocala",
+                    "city": "Ocala",
+                    "state": "FL",
+                    "country": "US",
+                    "country_iso3166": "US",
+                    "country_name": "USA",
+                    "zmw": "34470.1.99999",
+                    "l": "/q/zmw:34470.1.99999"
+                  },
+                  {
+                    "name": "Opa-locka",
+                    "city": "Opa-locka",
+                    "state": "FL",
+                    "country": "US",
+                    "country_iso3166": "US",
+                    "country_name": "USA",
+                    "zmw": "33054.1.99999",
+                    "l": "/q/zmw:33054.1.99999"
+                  },
+                  {
+                    "name": "Orlando",
+                    "city": "Orlando",
+                    "state": "FL",
+                    "country": "US",
+                    "country_iso3166": "US",
+                    "country_name": "USA",
+                    "zmw": "32801.1.99999",
+                    "l": "/q/zmw:32801.1.99999"
+                  },
+                  {
+                    "name": "Panama City",
+                    "city": "Panama City",
+                    "state": "FL",
+                    "country": "US",
+                    "country_iso3166": "US",
+                    "country_name": "USA",
+                    "zmw": "32401.1.99999",
+                    "l": "/q/zmw:32401.1.99999"
+                  },
+                  {
+                    "name": "Pensacola",
+                    "city": "Pensacola",
+                    "state": "FL",
+                    "country": "US",
+                    "country_iso3166": "US",
+                    "country_name": "USA",
+                    "zmw": "32501.1.99999",
+                    "l": "/q/zmw:32501.1.99999"
+                  },
+                  {
+                    "name": "Plant City",
+                    "city": "Plant City",
+                    "state": "FL",
+                    "country": "US",
+                    "country_iso3166": "US",
+                    "country_name": "USA",
+                    "zmw": "33563.1.99999",
+                    "l": "/q/zmw:33563.1.99999"
+                  },
+                  {
+                    "name": "Pompano Beach",
+                    "city": "Pompano Beach",
+                    "state": "FL",
+                    "country": "US",
+                    "country_iso3166": "US",
+                    "country_name": "USA",
+                    "zmw": "33060.1.99999",
+                    "l": "/q/zmw:33060.1.99999"
+                  },
+                  {
+                    "name": "Punta Gorda",
+                    "city": "Punta Gorda",
+                    "state": "FL",
+                    "country": "US",
+                    "country_iso3166": "US",
+                    "country_name": "USA",
+                    "zmw": "33927.1.99999",
+                    "l": "/q/zmw:33927.1.99999"
+                  },
+                  {
+                    "name": "Saint Augustine",
+                    "city": "Saint Augustine",
+                    "state": "FL",
+                    "country": "US",
+                    "country_iso3166": "US",
+                    "country_name": "USA",
+                    "zmw": "32084.1.99999",
+                    "l": "/q/zmw:32084.1.99999"
+                  },
+                  {
+                    "name": "Saint Petersburg",
+                    "city": "Saint Petersburg",
+                    "state": "FL",
+                    "country": "US",
+                    "country_iso3166": "US",
+                    "country_name": "USA",
+                    "zmw": "33701.1.99999",
+                    "l": "/q/zmw:33701.1.99999"
+                  },
+                  {
+                    "name": "Sanford",
+                    "city": "Sanford",
+                    "state": "FL",
+                    "country": "US",
+                    "country_iso3166": "US",
+                    "country_name": "USA",
+                    "zmw": "32771.1.99999",
+                    "l": "/q/zmw:32771.1.99999"
+                  },
+                  {
+                    "name": "Sarasota",
+                    "city": "Sarasota",
+                    "state": "FL",
+                    "country": "US",
+                    "country_iso3166": "US",
+                    "country_name": "USA",
+                    "zmw": "34230.1.99999",
+                    "l": "/q/zmw:34230.1.99999"
+                  },
+                  {
+                    "name": "Tallahassee",
+                    "city": "Tallahassee",
+                    "state": "FL",
+                    "country": "US",
+                    "country_iso3166": "US",
+                    "country_name": "USA",
+                    "zmw": "32301.1.99999",
+                    "l": "/q/zmw:32301.1.99999"
+                  },
+                  {
+                    "name": "Tampa",
+                    "city": "Tampa",
+                    "state": "FL",
+                    "country": "US",
+                    "country_iso3166": "US",
+                    "country_name": "USA",
+                    "zmw": "33601.1.99999",
+                    "l": "/q/zmw:33601.1.99999"
+                  },
+                  {
+                    "name": "Titusville",
+                    "city": "Titusville",
+                    "state": "FL",
+                    "country": "US",
+                    "country_iso3166": "US",
+                    "country_name": "USA",
+                    "zmw": "32780.1.99999",
+                    "l": "/q/zmw:32780.1.99999"
+                  },
+                  {
+                    "name": "Valparaiso",
+                    "city": "Valparaiso",
+                    "state": "FL",
+                    "country": "US",
+                    "country_iso3166": "US",
+                    "country_name": "USA",
+                    "zmw": "32580.1.99999",
+                    "l": "/q/zmw:32580.1.99999"
+                  },
+                  {
+                    "name": "Vero Beach",
+                    "city": "Vero Beach",
+                    "state": "FL",
+                    "country": "US",
+                    "country_iso3166": "US",
+                    "country_name": "USA",
+                    "zmw": "32960.1.99999",
+                    "l": "/q/zmw:32960.1.99999"
+                  },
+                  {
+                    "name": "West Palm Beach",
+                    "city": "West Palm Beach",
+                    "state": "FL",
+                    "country": "US",
+                    "country_iso3166": "US",
+                    "country_name": "USA",
+                    "zmw": "33401.1.99999",
+                    "l": "/q/zmw:33401.1.99999"
+                  },
+                  {
+                    "name": "Winter Haven",
+                    "city": "Winter Haven",
+                    "state": "FL",
+                    "country": "US",
+                    "country_iso3166": "US",
+                    "country_name": "USA",
+                    "zmw": "33880.1.99999",
+                    "l": "/q/zmw:33880.1.99999"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "codeGenerationParams": {
+          "serviceName": "wunderground",
+          "endpointName": "Conditions",
+          "methodName": "alerts"
+        },
+        "parameters": {
+          "query": "Florida",
+          "lang": "",
+          "pws": "",
+          "bestfct": ""
+        },
+        "requiredLibraries": [
+          "xdk/services/service-credentials.js",
+          "xdk/services/service-methods.js"
+        ]
+      }
+    ],
+    "buildConfigurations": {},
+    "testDirectory": "test"
+  },
+  "iot-tab": {
+    "arguments": "",
+    "killDelay": "1000"
+  }
+}

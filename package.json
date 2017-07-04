@@ -1,0 +1,27 @@
+{
+  "name": "NeoBeaconIntel-Display",
+  "description": "NeoBeacon Base Code for DisplayBeacon - Intel Edison -",
+  "version": "0.1.0",
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "BSD-3-Clause",
+  "private": true,
+  "dependencies": {
+    "request-promise": "4.1.1",
+    "query-string": "4.2.3",
+    "q": "1.4.1",
+    "underscore": "1.8.3",
+    "azure-iothub": "^1.1.12",
+    "azure-iot-common": "^1.0.12",
+    "azure-iot-device-amqp": "^1.0.1",
+    "azure-iot-amqp-base": "^1.0.1",
+    "azure-event-hubs": "^0.0.3",
+    "bluebird": "3.4.1",
+    "azure-iot-device": "^1.1.7",
+    "azure-iot-device-mqtt": "^1.1.7",
+    "edison-io": "^0.9.4",
+    "johnny-five": "^0.9.33"
+  }
+}
